@@ -1,0 +1,45 @@
+.row .col div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.row .col i {
+  font-size: 4rem;
+  color: rgb(5, 102, 141);
+}
+.row .col span {
+  font-size: 4rem;
+}
+#budgetDiv {
+  border: 2px solid green;
+  padding: 1rem;
+}
+#expensesDiv {
+  padding: 1rem;
+  border: 2px solid red;
+}
+
+h1 {
+  margin-left: 5%;
+}
+@media only screen and (min-width: 992px) {
+  #tableDiv {
+    margin-left: 1rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .col-12 {
+    margin-top: 2rem;
+  }
+}
+.show {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+tbody {
+  color: red;
+  font-size: 1.2rem;
+}
